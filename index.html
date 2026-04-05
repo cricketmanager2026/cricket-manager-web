@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cricket Manager Pro</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container min-h-screen flex-col">
+    <!-- Header -->
+    <header class="header-glass flex-between">
+      <div class="header-logo-group">
+        <div class="logo-wrapper">
+            <img class="logo-img" alt="Cricket Manager Logo" src="https://lh3.googleusercontent.com/aida/ADBb0ugNTjyqX113YVIL1Qr6y-7_-1OflF_L_B9K0WAP-u1LfTqQIBAjb9P_u_zMfYA_Yk-jtHPUgkvmLjSdKWBYR9crlf1FyOsIh7pajwGAeP8XD3BTdq89WmOe-V0WaUagPFXeT9hueIW_VKtOhez_xhxBuNhX0k4eBHB38RtyduMHleoaMxFuexIbOg-yzj7Af_Nxv99XhctjPgnG1py2Oi5NPCcIYNQuxdRBe0-nu-YCtAanKWalYQY0D0Cq1ari5fxpaaouQg0v">
+        </div>
+        <h2 class="header-title font-headline text-uppercase tracking-tight">Cricket Manager</h2>
+      </div>
+      <div class="nav-wrapper flex-center">
+        <nav class="nav-group flex-center">
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </nav>
+        <button class="btn-primary" onclick="window.open('https://bit.ly/cricketmanager', '_blank')">Get App</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-wrapper">
+      <div class="hero-bg-gradient"></div>
+      
+      <div class="hero-content">
+        <div class="hero-text-group">
+          <span class="hero-label">
+            Pro Edition Available Now
+          </span>
+          <h1 class="heading hero-heading">
+            Manage Your Cricket Tournaments <span class="hero-heading-highlight">Like a Pro</span>
+          </h1>
+          <p class="hero-desc">
+            Making cricket management easy and efficient. The ultimate digital HUD for organizers, right on your device.
+          </p>
+        </div>
+        <div>
+          <button class="btn-gradient" onclick="window.open('https://bit.ly/cricketmanager', '_blank')">
+            <span class="material-symbols-outlined mr-2">shop</span>
+            Get it on Play Store
+          </button>
+        </div>
+      </div>
+
+      <!-- Hero Phone Mockup -->
+      <div class="hero-mockup-wrapper">
+        <div class="phone-mockup">
+          <div class="phone-notch">
+            <div class="phone-speaker"></div>
+          </div>
+          <div class="phone-bg-img"></div>
+          
+          <div class="phone-gradient-overlay"></div>
+          
+          <div class="glass-panel flex-between live-match-overlay">
+            <div>
+              <p class="live-match-label">Live Match</p>
+              <p class="font-headline font-bold text-lg">IND vs AUS</p>
+            </div>
+            <div class="text-right">
+              <p class="font-headline live-match-score">184/3</p>
+              <p class="live-match-overs">18.4 Overs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+      <div class="section-header">
+        <span class="section-label">The Toolkit</span>
+        <h2 class="heading section-title">Powerful Features for Organizers</h2>
+        <p class="section-desc">
+          Everything you need to run successful tournaments, built into a high-performance interface.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        
+        <div class="feature-card brand-primary">
+          <div class="feature-icon-wrapper">
+            <span class="material-symbols-outlined text-2xl">calendar_month</span>
+          </div>
+          <div>
+            <h3 class="feature-title font-headline">Automated Fixtures</h3>
+            <p class="feature-desc">Easily generate match schedules and brackets in seconds. Let the system handle the complex logistics.</p>
+          </div>
+        </div>
+
+        <div class="feature-card brand-secondary">
+          <div class="feature-icon-wrapper">
+            <span class="material-symbols-outlined text-2xl">qr_code_2</span>
+          </div>
+          <div>
+            <h3 class="feature-title font-headline">QR Code Sharing</h3>
+            <p class="feature-desc">Share team pages, live scores, and tournament details instantly with generated QR codes.</p>
+          </div>
+        </div>
+
+        <div class="feature-card brand-tertiary">
+          <div class="feature-icon-wrapper">
+            <span class="material-symbols-outlined text-2xl">cloud_sync</span>
+          </div>
+          <div>
+            <h3 class="feature-title font-headline">Offline Sync</h3>
+            <p class="feature-desc">Keep scoring matches even without internet connection. Automatic sync when back online.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+      <h2 class="heading section-title uppercase text-left mb-8">The Digital Pitch</h2>
+      <div class="gallery-wrapper">
+        
+        <div class="gallery-item">
+          <div class="gallery-image-frame">
+            <img class="gallery-img" src="https://i.ibb.co/1Y0Dsb17/unnamed-1.png" alt="Dashboard" />
+          </div>
+          <div>
+            <p class="font-headline gallery-title">Dashboard Overview</p>
+            <p class="gallery-subtitle">EVERYTHING AT A GLANCE</p>
+          </div>
+        </div>
+
+        <div class="gallery-item hover-secondary">
+          <div class="gallery-image-frame">
+            <img class="gallery-img" src="https://i.ibb.co/QvzPV1xJ/Screenshot-1774802603.png" alt="Live Match Scoring" />
+          </div>
+          <div>
+            <p class="font-headline gallery-title">Live Match Scoring</p>
+            <p class="gallery-subtitle">SCORE BALL BY BALL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image-frame">
+            <img class="gallery-img" src="https://i.ibb.co/zWYm351V/unnamed-3.png" alt="Team Management" />
+          </div>
+          <div>
+            <p class="font-headline gallery-title">Team Management</p>
+            <p class="gallery-subtitle">MANAGE SQUADS EFFICIENTLY</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image-frame">
+            <img class="gallery-img" src="https://i.ibb.co/xKzw6ZTv/unnamed-2.png" alt="Player Management" />
+          </div>
+          <div>
+            <p class="font-headline gallery-title">Player Management</p>
+            <p class="gallery-subtitle">MANAGE PLAYERS EFFICIENTLY</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer flex-between">
+      <div class="footer-logo-group">
+        <img class="footer-logo" alt="Logo" src="https://lh3.googleusercontent.com/aida/ADBb0ujZdYCLNTRbUq8amhcQHoCFFtbnVO3n5z3gLTb7iK6aOn-reaHbLGSISP9XkZ9zAVh_7BmEWiZF8ZI1I6X2CFQfBArE9dA_abrCWq48WoWg6GNCQN2BysnptR0J6SXGvdzWEqPQDQ9ViJoN8OfPT40C-qGVquOfubsVkCQnyvmpM206fZTPkMznE5KlPhd507D_SPXTjY7VC3vXrTlax2fz6X0gDjLxevp36zVOPC5uaCiL1yzO70p_rhcwuPIhD_J3pUtd1bo" />
+        <span class="font-headline footer-title">Cricket Manager</span>
+      </div>
+      <div class="flex-center gap-8">
+        <a href="#" class="nav-link">Privacy Policy</a>
+        <a href="#" class="nav-link">Terms</a>
+        <a href="mailto:contact@cricketmanager.app" class="btn-secondary">Contact Us</a>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
